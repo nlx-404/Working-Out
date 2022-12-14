@@ -1,0 +1,133 @@
+.top-nav li {
+  display: inline-block;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.top-nav {
+  background-color: #7289da;
+  width: 100%;
+  position: fixed;
+  vertical-align: top;
+  margin: 0 0 20px 0;
+  top: 0;
+}
+
+body {
+  background-color: #282a36;
+  color: white;
+  margin: 0;
+}
+
+#Brand {
+  font-size: 24px;
+  margin: 0 14px 0 0;
+  float: right;
+}
+
+h1 {
+  margin: 100px 0 0 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+  margin: 80px auto;
+}
+
+h2,
+h3 {
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 24px;
+}
+
+img {
+  width: 800px;
+  height: 100%;
+}
+
+.bottom-nav {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom-nav li {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+#author {
+  font-size: 14px;
+  float: right;
+  width: 200px;
+  margin: 0 auto;
+}
+
+span {
+  margin: 0 40px;
+}
+
+ul li,
+ol li {
+  font-size: 24px;
+}
+
+iframe {
+  border: 2px white solid;
+}
+
+h5 {
+  margin: 40px;
+  font-size: 26px;
+}
+
+nav li:hover {
+  color: #bd93f9;
+  text-decoration: overline;
+}
+
+button {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 200px;
+  max-height: 40px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  background-color: aqua;
+  float: right;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+span {
+  font-size: 20px;
+}
+
+#datetime {
+  margin: 0 auto;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact-us.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <ul>
+          <a href="home.html"><li id="Brand">Olympia Health</li></a>
+          <a href="home.html"><li>Home</li></a>
+          <a href="workout-plan.html"><li>Workout Plan</li></a>
+          <a href="diet.html"><li>Diet</li></a>
+          <a href="supplements.html"><li>Supplements</li></a>
+          <a href="contact-us.html"><li>Contact Us</li></a>
+        </ul>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </header>
+
+    <span id="datetime"></span>
+
+    <section class="container">
+      <form name="service" method="post" onsubmit="return validateForm()">
+        <fieldset>
+          <legend hidden>Submit any comments or inquiriesl</legend>
+          <label for="Name">Enter your Name:</label>
+          <input type="text" name="Name" placeholder="Noel Ardelean" /><br />
+
+          <label for="Email">Enter Your Email:</label>
+          <input
+            type="email"
+            name="Email"
+            placeholder="name@domain.com"
+            id="Email"
+          /><br />
+
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Please enter your comment here!"
+          ></textarea
+          ><br />
+
+          <h3>What would you rate our website? From 1 - 10</h3>
+          <input type="radio" name="rating" value="1" /> 1
+          <input type="radio" name="rating" value="2" /> 2
+          <input type="radio" name="rating" value="3" /> 3
+          <input type="radio" name="rating" value="4" /> 4
+          <input type="radio" name="rating" value="5" /> 5
+          <input type="radio" name="rating" value="6" /> 6
+          <input type="radio" name="rating" value="7" /> 7
+          <input type="radio" name="rating" value="8" /> 8
+          <input type="radio" name="rating" value="9" /> 9
+          <input type="radio" name="rating" value="10" /> 10
+        </fieldset>
+        <input class="button" type="submit" name="submit" />
+      </form>
+    </section>
+    <footer>
+      <nav class="bottom-nav">
+        <ul>
+          <a href="home.html"><li>Home</li></a>
+          <a href="workout-plan.html"><li>Workout Plan</li></a>
+          <a href="diet.html"><li>Diet</li></a>
+          <a href="supplements.html"><li>Supplements</li></a>
+          <a href="contact-us.html"><li>Contact Us</li></a>
+        </ul>
+      </nav>
+
+      <span>&copy; Olympia Bodybuilding</span>
+      <h1 id="author">
+        Website Created by Noel Ardelean <br />
+        Student ID: C22366306
+      </h1>
+
+      <button onclick="to_Top()">Back to the Top</button>
+    </footer>
+
+    <script src="contact-us.js"></script>
+  </body>
+
+  <script src="scripts.js"></script>
+</html>
